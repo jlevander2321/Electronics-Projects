@@ -28,7 +28,7 @@ With a 1kΩ load resistor in parallel on R2:
 | With 1kΩ load | 0.420V | 0.417V | 0.7% |
 
 ## What I Learned
-This project showed that real circuits behave differently from theory when there's a load. The 1kΩ resistor acted as a load, drawing current and changing the voltage divider ratio. My measurements matched theory within 1%, which proves that even with real components, the math works—you just have to account for loading effects in circuit design.
+This project showed that real circuits behave differently from theory when there's a load. The 1kΩ resistor acted as a load, drawing current and changing the voltage divider ratio. My measurements matched theory within 1%, which proves that even with real components, the math works, just have to account for loading effects in circuit design.
 
 ## Photos
 [See images: circuit setup, no load multimeter reading, with load circuit, with load multimeter reading]
