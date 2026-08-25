@@ -22,7 +22,7 @@ Once it was built, I measured voltage across each resistor with the multimeter a
 
 ## Circuit Diagram
 
-(See attached photo of hand-drawn circuit diagram — labeled with node A, node B, Mesh a, Mesh b, and all resistor values)
+(See attached photo of hand-drawn circuit diagram, labeled with node A, node B, Mesh a, Mesh b, and all resistor values)
 
 ## Mesh Equations
 
@@ -42,15 +42,20 @@ I_R4(shared) = I_a - I_b = 8.1 mA - 3.0 mA = 5.1 mA
 
 Using I = V/R with the measured voltage across each resistor:
 
-I_100Ω = 0.808V / 100Ω = 8.08 mA I_220Ω = 1.78V / 220Ω = 8.09 mA I_330Ω = 0.99V / 330Ω = 3.00 mA I_470Ω(mesh b) = 1.41V / 470Ω = 3.00 mA I_470Ω(shared) = 2.39V / 470Ω = 5.09 mA
+I_100Ω = 0.808V / 100Ω = 8.08 mA 
+I_220Ω = 1.78V / 220Ω = 8.09 mA 
+I_330Ω = 0.99V / 330Ω = 3.00 mA 
+I_470Ω(mesh b) = 1.41V / 470Ω = 3.00 mA 
+I_470Ω(shared) = 2.39V / 470Ω = 5.09 mA
 
 ## Results
-Resistor	Theoretical Voltage	Measured Voltage	Theoretical Current	Measured Current	% Error
-100Ω (Mesh a)	0.81 V	0.808 V	8.1 mA	8.08 mA	0.25%
-220Ω (Mesh a)	1.78 V	1.78 V	8.1 mA	8.09 mA	0.11%
-330Ω (Mesh b)	0.99 V	0.99 V	3.0 mA	3.00 mA	0.00%
-470Ω (Mesh b only)	1.41 V	1.41 V	3.0 mA	3.00 mA	0.00%
-470Ω (Shared, R4)	2.40 V	2.39 V	5.1 mA	5.09 mA	0.29%
-Conclusion
+|Resistor|Theoretical Voltage|Measured Voltage|Theoretical Current|	Measured Current|	% Error|
+|--------|-------------------|----------------|-------------------|-----------------|--------|
+|100Ω (Mesh a)|	0.81 V|	0.808 V|	8.1 mA|	8.08 mA|	0.25%|
+|220Ω (Mesh a)|	1.78 V|	1.78 V|	8.1 mA|	8.09 mA|	0.11%|
+|330Ω (Mesh b)|	0.99 V|	0.99 V|	3.0 mA|	3.00 mA|	0.00%|
+|470Ω (Mesh b only)|	1.41 V|	1.41 V|	3.0 mA|	3.00 mA|	0.00%|
+|470Ω (Shared, R4)|	2.40 V|	2.39 V|	5.1 mA|	5.09 mA|	0.29%|
+## Conclusion
 
 Mesh analysis is a solid way to break down a complicated circuit using KVL and get accurate current readings without touching a single component. Every measured voltage came in close to what I calculated, with the worst error under 0.3%. Proving that mesh analysis is a viable method to get accurate circuit  values.
