@@ -17,7 +17,7 @@ Comparing theoretical mesh analysis calculations with real circuit measurements 
 
 I designed a two-mesh circuit using resistor values I actually had in my kit (100Ω, 220Ω, 330Ω, and two 470Ω), Before building anything, I checked the power dissipation for each resistor to make sure everything stayed safely under the 1/2W rating.
 
-Next, I set up KVL equations for Mesh a and Mesh b based on the circuit layout and solved for the two mesh currents. Then I built the circuit on a breadboard, with node A and node B marking the two junctions where the mesh currents split and combine.
+Next, I set up KVL equations for Mesh a and Mesh b based on the circuit layout and solved for the two mesh currents. Then I built the circuit on a breadboard, with node A and node B the two junctions where the mesh currents split and combine.
 
 Once it was built, I measured voltage across each resistor with the multimeter and used Ohm's Law (I = V/R) to calculate the current through each one.
 
